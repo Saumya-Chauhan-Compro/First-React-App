@@ -14,7 +14,7 @@ function App() {
   );
   const [showPersonState, othercurrentPersonState] = useState (
     {
-      showPerson : false
+      showPerson : true
     }
   );
   const namechanged = (event, index) =>{
